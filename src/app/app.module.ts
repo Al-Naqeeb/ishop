@@ -38,9 +38,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
-    NgbModule,
     AngularFireAuthModule,
-
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
