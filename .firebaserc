@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ishop-4cc4b": {
+      "hosting": {
+        "ishop": [
+          "ishop-4cc4b"
+        ]
+      }
+    }
+  }
+}
