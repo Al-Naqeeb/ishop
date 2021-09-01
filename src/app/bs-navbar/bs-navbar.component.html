@@ -17,7 +17,7 @@
           </a>
           <ul ngbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" routerLink="/my/orders">My Orders</a></li>
-            <ng-container *ngIf="appUser.isAdmin">
+            <ng-container *ngIf="appUser.isAdmin==='true'">
               <li><a class="dropdown-item" routerLink="/admin/orders">Manage Orders </a></li>
               <li><a class="dropdown-item" routerLink="/admin/products">Manage Products</a></li>
             </ng-container>
