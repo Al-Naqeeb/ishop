@@ -1,4 +1,3 @@
-import { AppUser } from './../models/app-user';
 import { AuthService } from './../auth.service';
 import { Component } from '@angular/core';
 
